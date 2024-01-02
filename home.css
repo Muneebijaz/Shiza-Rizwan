@@ -1,0 +1,133 @@
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 99vh;
+font-family: 'Inria Sans', sans-serif;
+background-image: url(fav\ one.jpeg), url(WhatsApp\ Image\ 2023-12-17\ at\ 7.13.05\ PM.jpeg) , url(WhatsApp\ Image\ 2024-01-01\ at\ 12.34.49\ AM.jpeg)
+;
+background-position:  right, left ,center ;
+background-size: 600px,500px, 550px;
+background-repeat: no-repeat , no-repeat;
+
+
+
+
+
+
+}
+
+.container{
+  background-color:  rgba(221, 221, 221, 0.3);
+  height: fit-content;
+  border: black;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+
+}
+
+
+
+.header-text{
+    font-size: 42px;
+    font-weight: bold;
+    color:  white;
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 
+    
+    
+
+}
+
+
+.header-2{
+  margin-top: -5px;
+  font-size: 32;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: black;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    margin-left: 20px;
+
+}
+#nobtn{
+    position: absolute;
+    margin-left :158px;
+    transition: 0.5s;
+   
+    
+}
+
+
+@keyframes fade {
+  0% { opacity: 0.8;}
+  25% { opacity: 0.5;}
+  50% {opacity: 0.2;}
+  100% {opacity: 0.0;}
+  
+}
+#yesbtn{
+    position: absolute;
+    margin-right: 158px;
+}
+
+
+
+
+
+
+
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 10px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 19px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: 30px;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+
+.no{
+    color: black;
+    border: solid 1px ;
+    background-image: linear-gradient(92.88deg, #fdfdfd 9.16%, #ffffff 43.89%, #ffffff 64.72%);
+    background-color: transparent;
+
+}
+

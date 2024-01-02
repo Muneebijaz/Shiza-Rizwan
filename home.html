@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div >
+      <div class="container">
+        <h1 class="header-text  header">Shiza Rizwan,<br>The Sweetest one  would you please go out with me?</h1>
+        <h2 class="header-2"><br> Be My 12 am cuddle when i cant sleep? <br> Be the one to give me good suggestions advices when i am being a crybaby infront of you ? <br> Be my Passenger Princess?  </h2>
+
+      </div>
+      <div class="gif_container">
+        <img src="" />
+      </div>
+      <div class="buttons">
+        <button class="btn button-36" id="yesbtn" onclick="nextPage()">
+          Yes
+        </button>
+        <button class="btn button-36 no" id="nobtn" onclick="selfcode()">
+          No
+        </button>
+        <script>
+                  function nextPage() {
+                      window.location.href= "yes.html";
+                  }
+
+
+                 
+          
+
+                  function moveButton() {
+                      var x = Math.random()=(window.innerWidth-document.getElementById('nobtn').offsetWidth);
+                      var y =Math.random() =(window.innerHeight - document.getElementById('notbtn').offsetHeight);
+                      document.getElementById('nobtn').style.left=`${x}px`;
+                      document.getElementById('nobtn').style.top=`${y}px`;
+
+
+                  }
+                   function selfcode() {
+                    console.log("clicked");
+                    document.getElementById("nobtn").style.animationName="fade"
+                    ;
+                    document.getElementById("nobtn").style.animationDuration="3s"
+                    ;
+                    document.getElementById("nobtn").style.animationName="fade"
+                    ;
+                    document.getElementById("nobtn").style.animationFillMode="forwards"
+                    ;
+
+
+                  }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
